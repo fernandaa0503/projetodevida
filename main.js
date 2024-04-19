@@ -37,7 +37,6 @@ function atualizaCronometro(){
 
 }
 
-}
 function comecaCronometro(){
     atualizaCronometro();
     setInterval(atualizaCronometro,1000);
@@ -61,13 +60,5 @@ function calculaTempo(tempoObjetivo) {
     } else {
         return [0,0,0,0];
     }
-}
 
-
-
-    if (tempoFinal > 0){
-        return dias + " dias " + horas + " horas " + minutos + " minutos " + segundos + " segundos";
-    } else {
-        return "Prazo Finalizado";
-    }
 }
